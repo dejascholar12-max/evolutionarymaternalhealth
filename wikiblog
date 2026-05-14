@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evolutionary Maternal Health</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+      color: #222;
+      background: #f8f5f0;
+    }
+
+    header {
+      background: linear-gradient(rgba(70, 32, 51, 0.86), rgba(70, 32, 51, 0.86)),
+        url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 90px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      line-height: 1.2;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: #2f1f2b;
+      padding: 14px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 40px 22px;
+      background: #fffdf9;
+    }
+
+    section {
+      margin-bottom: 55px;
+      padding-bottom: 35px;
+      border-bottom: 1px solid #ddd0c4;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #5a243d;
+      margin-bottom: 14px;
+    }
+
+    h3 {
+      color: #7a3d55;
+      font-size: 1.35rem;
+      margin-top: 28px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 18px;
+    }
+
+    .callout {
+      background: #f2e6ec;
+      border-left: 6px solid #7a3d55;
+      padding: 20px 24px;
+      margin: 28px 0;
+      border-radius: 8px;
+    }
+
+    .callout strong {
+      color: #4d1730;
+    }
+
+    .image-box {
+      margin: 32px 0;
+      text-align: center;
+    }
+
+    .image-box img {
+      width: 100%;
+      max-width: 760px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.16);
+      background: white;
+    }
+
+    .caption {
+      font-size: 0.93rem;
+      color: #555;
+      margin-top: 8px;
+      font-style: italic;
+    }
+
+    ul, ol {
+      padding-left: 32px;
+      font-size: 1.05rem;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-top: 26px;
+    }
+
+    .card {
+      background: #faf3f5;
+      border: 1px solid #e2cbd3;
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #74304c;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #2f1f2b;
+      color: white;
+      padding: 34px 22px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    .references p {
+      padding-left: 2em;
+      text-indent: -2em;
+      font-size: 0.98rem;
+    }
+
+    .note {
+      font-size: 0.95rem;
+      background: #f6efe8;
+      padding: 14px 18px;
+      border-radius: 8px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Evolutionary Maternal Health</h1>
+    <p>A wikiblog exploring maternal mortality, childbirth risk, and racial disparities through the lens of evolutionary medicine.</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Introduction</a>
+    <a href="#history">History</a>
+    <a href="#evolutionary-medicine">Evolutionary Medicine</a>
+    <a href="#tradeoffs">Trade-Offs</a>
+    <a href="#obstetric">Obstetric Dilemma</a>
+    <a href="#stress">Stress</a>
+    <a href="#disparities">Disparities</a>
+    <a href="#testing">Testing</a>
+    <a href="#references">References</a>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>Maternal mortality remains one of the most serious public health issues in the United States. Maternal mortality refers to deaths that occur during pregnancy or shortly after childbirth due to complications such as hemorrhage, hypertension, cardiomyopathy, infection, or other pregnancy related causes. Although advances in medicine and technology have improved healthcare overall, the United States continues to experience disproportionately high maternal mortality rates compared to other developed countries.</p>
+
+      <p>These outcomes are not distributed equally across populations. Black women in the United States experience significantly higher rates of maternal mortality than white women. This project examines maternal mortality through the framework of evolutionary medicine. Evolutionary medicine seeks to understand why humans remain vulnerable to disease and biological complications despite millions of years of evolution. Instead of viewing the human body as perfectly designed, evolutionary medicine argues that many health problems result from evolutionary trade offs, environmental mismatch, and conflicts between competing biological priorities.</p>
+
+      <div class="callout">
+        <p><strong>Main argument:</strong> Pregnancy is inherently risky because human reproduction evolved under biological constraints and trade offs. Modern social inequalities, including chronic stress, structural racism, and unequal healthcare access, intensify these built in vulnerabilities and contribute to higher maternal mortality among Black women in the United States.</p>
+      </div>
+
+      <div class="image-box">
+        <img src="https://www.cdc.gov/nchs/images/databriefs/401-450/db454-fig1.png" alt="CDC maternal mortality trend graph" />
+        <div class="caption">Figure 1. Maternal mortality trends in the United States. This image should be used to introduce the scope of the problem and support the claim that maternal mortality remains a serious issue.</div>
+      </div>
+    </section>
+
+    <section id="history">
+      <h2>Historical Background of Maternal Mortality</h2>
+      <p>Maternal mortality has existed throughout human history. Prior to the development of modern medicine, childbirth was one of the leading causes of death among women worldwide. Historical records from different societies show that infection, hemorrhage, obstructed labor, and hypertensive disorders frequently caused death during or shortly after childbirth. Before antibiotics and modern surgical procedures, even relatively minor complications could become fatal.</p>
+
+      <p>During the nineteenth and twentieth centuries, maternal mortality rates decreased significantly in many industrialized countries because of improved sanitation, access to hospitals, blood transfusions, prenatal care, antibiotics, and surgical interventions such as cesarean sections. However, despite technological progress, pregnancy still remains dangerous. The persistence of maternal mortality demonstrates an important point within evolutionary medicine: medical advancement can reduce risk, but it cannot fully eliminate vulnerabilities built into human reproductive biology.</p>
+
+      <p>In addition to overall maternal mortality, racial disparities have become an increasingly important public health concern. Black women consistently experience maternal mortality rates that are several times higher than those of white women. Research shows that these disparities cannot be fully explained by genetics, education, or income alone. Instead, they reflect interactions between biology, stress physiology, healthcare systems, and structural inequality.</p>
+
+      <div class="image-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Obstetrics17thCentury.jpg" alt="Historical childbirth image" />
+        <div class="caption">Figure 2. Historical childbirth practices show that pregnancy and delivery have always carried major risks. This image supports the background section by showing that childbirth complications are not new.</div>
+      </div>
+    </section>
+
+    <section id="evolutionary-medicine">
+      <h2>What is Evolutionary Medicine?</h2>
+      <p>Evolutionary medicine is the study of how evolutionary processes shape human health and disease. Rather than asking only how disease occurs, evolutionary medicine asks why humans remain vulnerable to disease in the first place. Randolph M. Nesse explains that natural selection does not create perfect bodies. Instead, it favors traits that improve survival and reproductive success, even when those traits carry health costs.</p>
+
+      <p>This idea is important for understanding pregnancy. Pregnancy is not simply a medical condition or a failure of the body. It is a biologically intense process shaped by evolution. The maternal body must support fetal growth while also protecting itself. This creates competing demands on energy, blood flow, immune function, metabolism, and cardiovascular health.</p>
+
+      <div class="two-column">
+        <div class="card">
+          <h3>Key evolutionary concepts</h3>
+          <ul>
+            <li>Natural selection prioritizing reproduction over long-term health</li>
+            <li>Evolutionary trade-offs</li>
+            <li>Obstetric dilemma</li>
+            <li>Parent-offspring conflict</li>
+            <li>Evolutionary mismatch</li>
+            <li>Life history theory</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Useful resource</h3>
+          <p><a href="https://www.cdc.gov/nchs/maternal-mortality/index.htm" target="_blank">CDC Maternal Mortality Data</a></p>
+          <p>This link provides current maternal mortality data and can be used to support the public health side of the project.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tradeoffs">
+      <h2>Pregnancy as an Evolutionary Trade-Off</h2>
+      <p>Evolutionary medicine suggests that pregnancy is not a perfectly optimized biological process. Human reproduction involves significant evolutionary trade offs. A trade off occurs when one adaptation improves one aspect of survival or reproduction while increasing costs in another area.</p>
+
+      <p>Pregnancy requires the body to dramatically increase blood volume, cardiac output, metabolic activity, and immune regulation. These changes support fetal growth and increase the chances of reproductive success. However, these same physiological changes can increase maternal vulnerability to complications such as hypertension, cardiomyopathy, blood clotting disorders, and infection.</p>
+
+      <p>During pregnancy, blood volume increases significantly in order to supply oxygen and nutrients to the fetus. Cardiac output also rises because the heart must work harder to circulate blood through both maternal and placental systems. While these changes are necessary for fetal development, they place additional stress on the cardiovascular system. In individuals with underlying cardiovascular strain or chronic stress exposure, pregnancy may overwhelm the body’s ability to compensate.</p>
+
+      <p>Pregnancy also alters immune function. The maternal immune system must tolerate fetal tissue while still protecting both mother and fetus from infection. This creates a delicate immunological balance. Evolutionarily, these changes improve reproductive success, but they also increase vulnerability to inflammatory disorders and infectious complications.</p>
+
+      <h3>Life History Theory</h3>
+      <p>Life history theory helps explain this vulnerability. Life history theory argues that organisms have limited energy and resources that must be divided among growth, maintenance, reproduction, and survival. During pregnancy, large amounts of energy are shifted toward fetal development. As a result, less energy may be available for long term bodily repair and maintenance. Pregnancy therefore exposes underlying physiological vulnerabilities.</p>
+
+      <div class="callout">
+        <p><strong>Evolutionary takeaway:</strong> Natural selection favors successful reproduction, not perfect maternal safety. This means pregnancy can be adaptive and dangerous at the same time.</p>
+      </div>
+    </section>
+
+    <section id="obstetric">
+      <h2>The Obstetric Dilemma</h2>
+      <p>One of the most important evolutionary explanations for childbirth complications is the obstetric dilemma. Humans evolved bipedalism, meaning upright walking on two legs. Bipedalism favored a pelvis that could support efficient walking and balance. At the same time, humans evolved large brain size, which increased infant head size.</p>
+
+      <p>These two evolutionary pressures created a biological conflict. Human infants must pass through a relatively narrow birth canal despite having large heads and shoulders. As a result, human childbirth is significantly more difficult and dangerous than childbirth in many other mammals.</p>
+
+      <p>The obstetric dilemma helps explain why humans experience obstructed labor, increased risk of hemorrhage, birth trauma, assisted delivery, high cesarean section rates, and maternal mortality risk. This concept is especially important because it demonstrates that maternal mortality is not simply the result of poor healthcare or modern failure. Some risk is built into the evolutionary structure of human reproduction itself.</p>
+
+      <div class="image-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Female_pelvis_front.jpg" alt="Female pelvis diagram" />
+        <div class="caption">Figure 3. The human pelvis reflects an evolutionary compromise between bipedal walking and childbirth. This image should be discussed when explaining the obstetric dilemma.</div>
+      </div>
+    </section>
+
+    <section id="conflict">
+      <h2>Parent-Offspring Conflict and Pregnancy Complications</h2>
+      <p>Another important concept in evolutionary medicine is parent-offspring conflict. Although mothers and fetuses share genes, they do not have perfectly identical evolutionary interests. The fetus benefits from obtaining as many nutrients and resources as possible, while the mother must conserve energy and resources for her own survival and future reproduction.</p>
+
+      <p>This conflict is especially visible through placental function. The placenta influences maternal blood flow, glucose regulation, nutrient transfer, and hormone production. Some researchers suggest that pregnancy complications such as preeclampsia and gestational diabetes may partly result from this biological tension.</p>
+
+      <p>For example, increased fetal demands may elevate maternal blood pressure, altered glucose regulation may increase nutrient availability to the fetus, and excessive placental invasion may contribute to hemorrhage risk. These complications demonstrate how evolutionary pressures can create competing physiological demands during pregnancy.</p>
+
+      <div class="image-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Placenta.svg" alt="Placenta diagram" />
+        <div class="caption">Figure 4. The placenta plays a major role in maternal and fetal resource exchange. This image connects directly to parent-offspring conflict.</div>
+      </div>
+    </section>
+
+    <section id="stress">
+      <h2>Evolutionary Mismatch and Chronic Stress</h2>
+      <p>Evolutionary mismatch occurs when biological systems that evolved under ancestral conditions become harmful in modern environments. Human stress response systems evolved to handle short term dangers such as predators, injury, or conflict. These responses were designed for brief activation followed by recovery.</p>
+
+      <p>Modern environments expose many individuals to chronic stress rather than short term threats. Repeated activation of stress responses increases cortisol levels, inflammation, cardiovascular strain, and immune dysfunction. Over time, chronic stress contributes to hypertension, metabolic disease, and cardiovascular damage.</p>
+
+      <p>This evolutionary mismatch perspective is especially important for understanding racial disparities in maternal mortality. Black women in the United States often experience chronic stress associated with structural inequality, discrimination, economic instability, and barriers within healthcare systems. Long term exposure to these stressors can produce physiological wear and tear, sometimes referred to as weathering.</p>
+
+      <p>Pregnancy places additional strain on these already stressed biological systems. As a result, individuals experiencing chronic stress may face increased risk of hypertension, preeclampsia, cardiovascular disease, premature birth, and maternal death.</p>
+
+      <div class="image-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/HPA_Axis_Diagram.png" alt="HPA axis stress response diagram" />
+        <div class="caption">Figure 5. Chronic activation of the stress response system can damage cardiovascular and immune function, making this figure useful for explaining evolutionary mismatch.</div>
+      </div>
+    </section>
+
+    <section id="disparities">
+      <h2>Applying Evolutionary Medicine to Racial Disparities</h2>
+      <p>Research consistently shows that racial disparities in maternal mortality are not caused by race as a biological category. Instead, they are produced by social and structural conditions that affect the body over time. This project argues that evolutionary vulnerabilities create the biological foundation of pregnancy risk, while modern inequality determines who is most exposed to danger.</p>
+
+      <p>Black women in the United States face higher exposure to chronic stress, unequal treatment in healthcare settings, delayed diagnosis, provider bias, and reduced access to high quality maternal care. These conditions can interact with evolved physiological systems in harmful ways. For example, if chronic stress increases inflammation and blood pressure before pregnancy, then pregnancy may intensify these risks.</p>
+
+      <p>Elizabeth A. Howell’s research on severe maternal morbidity and mortality supports the idea that healthcare quality and structural inequality are major contributors to racial disparities. This fits with the evolutionary medicine argument because it shows that biological vulnerability does not operate alone. Health outcomes emerge from the interaction between biology and environment.</p>
+
+      <div class="callout">
+        <p><strong>My position:</strong> Evolutionary medicine explains why pregnancy is biologically vulnerable, but public health research explains why Black women face higher risk in the United States. Both perspectives are needed to understand the full issue.</p>
+      </div>
+
+      <div class="card">
+        <h3>Useful resource</h3>
+        <p><a href="https://www.who.int/news-room/fact-sheets/detail/maternal-mortality" target="_blank">WHO Maternal Mortality Fact Sheet</a></p>
+        <p>This page gives global background information and helps show that maternal mortality is a worldwide issue, not only a U.S. problem.</p>
+      </div>
+    </section>
+
+    <section id="other-explanations">
+      <h2>Other Explanations for Maternal Mortality Disparities</h2>
+      <p>While evolutionary medicine provides important insight into maternal vulnerability, it is also necessary to examine alternative explanations for maternal mortality disparities. Some explanations focus primarily on healthcare access, socioeconomic inequality, provider bias, delayed treatment, insurance disparities, education differences, and geographic healthcare access.</p>
+
+      <p>These explanations are strongly supported by public health research. However, this project argues that these explanations are incomplete without considering evolutionary medicine. Evolutionary vulnerabilities create a biologically risky reproductive system, while modern social conditions amplify these built in risks. This combined perspective provides a more complete explanation than either evolutionary or social explanations alone.</p>
+    </section>
+
+    <section id="critique">
+      <h2>Critiques and Limitations of Evolutionary Medicine</h2>
+      <p>Evolutionary medicine is not without criticism. Some scholars argue that evolutionary explanations can become speculative if they rely too heavily on assumptions about ancestral environments without sufficient evidence. M. Cournoyea argues that evolutionary medicine must avoid creating “just so stories” that sound plausible but lack strong empirical support.</p>
+
+      <p>Because ancestral environments cannot be directly observed, some evolutionary explanations remain difficult to prove conclusively. Additionally, evolutionary explanations should never be used to ignore the role of modern healthcare systems, racism, or structural inequality. Social and political conditions play a major role in shaping maternal outcomes.</p>
+
+      <p>For this reason, evolutionary medicine works best when combined with public health data, clinical research, sociological perspectives, and historical analysis. This project therefore uses evolutionary medicine as one important framework rather than the sole explanation for maternal mortality disparities.</p>
+    </section>
+
+    <section id="testing">
+      <h2>How Could This Hypothesis Be Tested?</h2>
+      <p>The hypothesis presented in this project could be tested through multiple forms of biological and public health research. Researchers could measure cortisol and inflammatory biomarkers during pregnancy, compare cardiovascular strain across populations exposed to different levels of chronic stress, and conduct longitudinal studies tracking maternal health before, during, and after pregnancy.</p>
+
+      <p>Researchers could also study placental function and blood pressure regulation, evaluate whether stress reduction interventions improve maternal outcomes, and examine how healthcare quality interacts with chronic stress and physiological strain. These approaches would help clarify how evolutionary vulnerabilities and modern social environments interact.</p>
+
+      <ol>
+        <li>Measure cortisol and inflammatory biomarkers during pregnancy.</li>
+        <li>Compare cardiovascular strain across populations with different stress exposures.</li>
+        <li>Track maternal health before, during, and after pregnancy.</li>
+        <li>Study placental function and blood pressure regulation.</li>
+        <li>Evaluate whether stress reduction and healthcare interventions reduce complications.</li>
+      </ol>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>Maternal mortality disparities in the United States are best understood through a combination of evolutionary and social perspectives. Evolutionary medicine demonstrates that pregnancy is inherently risky because human reproduction involves trade offs shaped by evolution, including the obstetric dilemma, parent offspring conflict, life history trade offs, and stress response systems.</p>
+
+      <p>At the same time, modern conditions such as chronic stress, structural inequality, and unequal healthcare access amplify these built in vulnerabilities. Black women in the United States experience disproportionately high maternal mortality rates not because of biological race differences, but because modern social environments place unequal strain on evolved physiological systems.</p>
+
+      <p>By combining evolutionary medicine with public health research, this project provides a more complete explanation for maternal mortality disparities and highlights the importance of addressing both biological vulnerability and social inequality.</p>
+    </section>
+
+    <section id="references" class="references">
+      <h2>References</h2>
+      <p>Cournoyea M. (2013). Ancestral assumptions and the clinical uncertainty of evolutionary medicine. <em>Perspectives in biology and medicine, 56</em>(1), 36–52. <a href="https://doi.org/10.1353/pbm.2013.0006" target="_blank">https://doi.org/10.1353/pbm.2013.0006</a></p>
+
+      <p>Howell E. A. (2018). Reducing Disparities in Severe Maternal Morbidity and Mortality. <em>Clinical obstetrics and gynecology, 61</em>(2), 387–399. <a href="https://doi.org/10.1097/GRF.0000000000000349" target="_blank">https://doi.org/10.1097/GRF.0000000000000349</a></p>
+
+      <p>Nesse, R. M. (2008). The importance of evolution for medicine. In W. Trevathan, E. O. Smith, & J. J. McKenna (Eds.), <em>Evolutionary medicine and health</em> (pp. 416–432). Oxford University Press.</p>
+
+      <p>Geronimus A. T. (1992). The weathering hypothesis and the health of African-American women and infants: Evidence and speculations. <em>Ethnicity & Disease, 2</em>(3), 207–221.</p>
+
+      <p>Hoyert D. L. (2026). Maternal mortality rates in the United States, 2024. <em>NCHS Health E-Stats</em>, March 2026, (113), 1–7. <a href="https://dx.doi.org/10.15620/cdc/174651" target="_blank">https://dx.doi.org/10.15620/cdc/174651</a></p>
+
+      <p>World Health Organization. (2025). Maternal mortality. <a href="https://www.who.int/news-room/fact-sheets/detail/maternal-mortality" target="_blank">https://www.who.int/news-room/fact-sheets/detail/maternal-mortality</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>EvolutionaryMaternalHealth | ANTH 395 Evolutionary Medicine Wikiblog</p>
+  </footer>
+</body>
+</html>
+
